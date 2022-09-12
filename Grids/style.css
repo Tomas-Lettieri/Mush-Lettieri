@@ -1,0 +1,132 @@
+
+body{
+    background-color: #4158D0;
+background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
+}
+
+.inicio-fondo h1 {
+text-align: center;
+font-size: 45px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: blueviolet;
+background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+}
+.inicio-fondo{
+    background-color: #4158D0;
+background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
+}
+
+
+.navegacion{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.navegacion ul{
+    font-size: larger;
+    border: 4px cornflowerblue solid;
+    color: blueviolet;
+}
+.iniciopag{
+    display: grid;
+    grid-template-columns: 1fr 1fr
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "img1 img2 img3";
+
+}
+.uno{
+grid-area: img1;
+}
+.dos{
+grid-area: img2;
+}
+.tres{
+    grid-area: img3;
+
+}
+.txt h1{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: blueviolet; ;
+}
+.productos h1{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: blueviolet;
+}
+.productos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "prod1 prod2 prod3";
+}
+.p1{
+grid-area: prod1;
+}
+.p2{
+grid-area: prod2;
+}
+.p3{
+grid-area: prod3;
+}
+footer{
+  padding: 30px;  
+  background-color: darkmagenta;
+  position: sticky;
+  bottom: top
+  ;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+}
+.galeria{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "img1 img2 img3"
+    "img4 img5 img6"
+   ;
+    
+}
+.galeria{
+    background-color: aqua;
+}
+.gal1{
+    grid-area: img1;
+}
+.gal2{
+    grid-area: img2;
+}
+.gal3{
+    grid-area: img3;
+}
+.gal4{
+    grid-area: img4;
+}
+.gal5{
+    grid-area: img5;
+}
+.gal6{
+    grid-area: img6;
+}
+@media only screen and (max-width:768px) {
+    
+}
+@media only screen and (max-width:576px) {
+    
+}
+.fondogaleria{
+    background-color: #C850C0;
+}
+
+    
